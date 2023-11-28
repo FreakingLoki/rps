@@ -39,3 +39,9 @@ function playRound(playerSelection, computerSelection) {
 
     return endText;
 }
+
+//testing
+let player = 'rock';
+let computer = getComputerChoice();
+
+console.log(playRound(player, computer));
